@@ -50,7 +50,8 @@ npm run dev
 
 ---
 
-## Ciente
+## Cliente
 <img src="cliente.png" alt="image" width="1200">
+
 - Resposta:
 <img src="cliente_res.png" alt="image" width="1200">

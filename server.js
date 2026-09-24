@@ -103,7 +103,7 @@ const excluir = (req,res)=>{
 
 const porta = 3000
 
-const app = express()
+const app   = express()
 
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))

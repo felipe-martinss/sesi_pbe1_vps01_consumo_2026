@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamentos</title>
+</head>
+<body>
+    <header><h1>Cadastro de equipamentos com gasto de energia</h1></header>
+    <main>
+        <form action="http://localhost:3000/" method="post">
+            <input type="text" name="local" placeholder="Nome do local" required>
+            <input type="text" name="equipamento" placeholder="Nome do equipamento" required>
+            <input type="number" name="consumo_kwh" step="0.01" placeholder="Consumo de KWH" required>
+            <input type="date" name="mes_referencia" placeholder="Mes de referencia" required>
+            <input type="text" name="status" placeholder="Status de consumo" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer><h2>by felipe-martinss</h2></footer>
+</body>
+</html>

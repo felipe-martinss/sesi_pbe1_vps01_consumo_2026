@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "local": "Sala 04",
+        "equipamento": "Projetor EPSON",
+        "consumo_kwh": 0.29,
+        "mes_referencia": "2026-09",
+        "status": "Consumo baixo"
+    },
+    {
+        "id": 2,
+        "local": "Laboratório 03",
+        "equipamento": "Ar-condicionado",
+        "consumo_kwh": 185.4,
+        "mes_referencia": "2026-08",
+        "status": "Consumo elevado"
+    },
+    {
+        "id": 3,
+        "local": "Laboratório de Informática 01",
+        "equipamento": "Laptop Dell",
+        "consumo_kwh": 0.07,
+        "mes_referencia": "2026-03",
+        "status": "Consumo baixo"
+    },
+    {
+        "id": 4,
+        "local": "Refeitório",
+        "equipamento": "Geladeira",
+        "consumo_kwh": 80.90,
+        "mes_referencia": "2026-10",
+        "status": "Consumo moderado"
+    },{
+        "id": 5,
+        "local": "Entrada",
+        "equipamento": "Camera de Segurança",
+        "consumo_kwh": 15.3,
+        "mes_referencia": "2026-11",
+        "status": "Consumo baixo"
+    }
+
+]

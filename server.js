@@ -37,15 +37,15 @@ const listarporID = (req, res) => {
 }
 
 const listarporEquipamento = (req, res) => {
-    const Equip = req.params.equipamento
-    let satus = 0
+    const equip = req.params.equipamento;
+    const encontrado = equipamentos.filter((equipamento) => equipamento.equipamento == equip);
 
-    equipamentos.forEach((equipamento)=> {
-        if (equipamento.equipamento == Equip) {
-            res.send(equipamento)
-        }
-    })
+    if (encontrado) {
+        res.send(encontrado);
+    } else {
+        res.status(404).send("Não encontrado")
     }
+}
 
 
 const listarporLocal = (req, res) => {

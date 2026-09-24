@@ -31,25 +31,35 @@ const listarporID = (req, res) => {
     equipamentos.forEach((equipamento) => {
         if (equipamento.id == id) {
             res.send(equipamento)
+            status = 1
         }
+    })
+    if (status == 0){
+        res.send("Equipamento não encontrado")
     }
-    )
 }
 
 const listarporEquipamento = (req, res) => {
-    const equip = req.params.equipamento;
-    const encontrado = equipamentos.filter((equipamento) => equipamento.equipamento == equip);
+    const equip = req.params.equipamento
+    const encontrado = equipamentos.filter((equipamento) => equipamento.equipamento == equip)
 
     if (encontrado) {
-        res.send(encontrado);
+        res.send(encontrado)
     } else {
-        res.status(404).send("Não encontrado")
+        res.status(404).send("Equipamento não encontrado")
     }
 }
 
 
 const listarporLocal = (req, res) => {
+    const local = req.params.local
+    const encontrado = equipamentos.filter((equipamento) => equipamento.local == local)
 
+    if (encontrado){
+        res.send(encontrado)
+    } else {
+        res.status(404).send("Equipamento não encontrado")
+    }
 }
 
 const atualizar = (req, res) => {
@@ -104,7 +114,8 @@ app.post("/", cadastrarEquipamento)
 app.get("/", listar)
 app.get("/:id", listarporID)
 app.get("/equipamento/:equipamento", listarporEquipamento)
-app.put("/atualizar/:id", atualizar)
+app.get("/local/:local", listarporLocal)
+app.put("/:id", atualizar)
 app.delete("/:id", excluir)
 
 

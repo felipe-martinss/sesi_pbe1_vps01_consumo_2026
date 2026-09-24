@@ -24,14 +24,18 @@ npm run dev
 ---
 
 ## Print dos testes e exemplo de requisições
-- CREATE
-![Create](./prints/create.png)
-- READ ALL
-![Read](./prints/read.png)
-- BUSCAR
-![Find](./prints/find.png)
-- UPDATE
-![Update](./prints/update.png)
+- Cadastrar
+ <img src="cadastrar.png" alt="image" width="1200">
+
+- Listar
+ <img src="listar_todos.png" alt="image" width="1200">
+
+- Buscar por ID
+ <img src="listar_id.png" alt="image" width="1200">
+
+- Buscar por Equipamento
+ <img src="buscar_equipamento.png" alt="image" width="1200">
+
 - DELETE
 ![Delete](./prints/delete.png)
 

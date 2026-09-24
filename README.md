@@ -12,14 +12,14 @@ Exemplo simples de back-end com mockup de dados JSON e funcionalidades CRUD padr
 ---
 
 ## Passos para testar
-- 1 Clone este repositório
-- 2 Abra com **VsCode** e em um terminal digite:
+- 1º Clone este repositório
+- 2º Abra com **VsCode** e em um terminal digite:
 ```bash
 npm install
 npm run dev
 ```
-- 3 Teste as rotas com a extensão `Thunder Client` do **VsCode**
-- 4 Abra o arquivo client/index.html com a extensão `Live Server` do **VsCode**
+- 3º Teste as rotas com a extensão `Thunder Client` do **VsCode**
+- 4º Abra o arquivo client/index.html com a extensão `Live Server` do **VsCode**
 
 ---
 
@@ -36,8 +36,15 @@ npm run dev
 - Buscar por Equipamento
  <img src="buscar_equipamento.png" alt="image" width="1200">
 
-- DELETE
-![Delete](./prints/delete.png)
+ - Buscar por Local
+  <img src="buscar_local.png" alt="image" width="1200">
+
+- Atualizar  
+<img src="atualizar.png" alt="image" width="1200">
+
+- Excluir e Resultado
+<img src="excluir.png" alt="image" width="1200">
+<img src="res_excluir.png" alt="image" width="1200">
 
 ---
 

@@ -24,8 +24,9 @@ npm run dev
 ---
 
 ## Print dos testes e exemplo de requisições
-- Cadastrar
+- Cadastrar e Resultado
  <img src="cadastrar.png" alt="image" width="1200">
+ <img src="res_cadastrar.png" alt="image" width="1200">
 
 - Listar
  <img src="listar_todos.png" alt="image" width="1200">
@@ -39,8 +40,9 @@ npm run dev
  - Buscar por Local
   <img src="buscar_local.png" alt="image" width="1200">
 
-- Atualizar  
+- Atualizar  e Resultado
 <img src="atualizar.png" alt="image" width="1200">
+<img src="res_atualizar.png" alt="image" width="1200">
 
 - Excluir e Resultado
 <img src="excluir.png" alt="image" width="1200">
